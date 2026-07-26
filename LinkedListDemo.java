@@ -14,7 +14,7 @@ public class LinkedListDemo {
     // Linked List Class
     static class LinkedList {
         Node head;
-
+ 
         // Insert at Beginning
         public void insertAtBeginning(int data) {
             Node newNode = new Node(data);
@@ -23,7 +23,7 @@ public class LinkedListDemo {
         }
 
         // Insert at End
-        public void insertAtEnd(int data) {
+        public void insertAtEnd(int data) { 
             Node newNode = new Node(data);
 
             if (head == null) {

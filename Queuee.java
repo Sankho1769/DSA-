@@ -17,7 +17,7 @@ public class Queuee {
             arr[rear] = data;
         }
 
-        // Remove (Dequeue)
+        // Remove (Dequeue) 
         int dequeue() {
 
             if (front > rear) {
