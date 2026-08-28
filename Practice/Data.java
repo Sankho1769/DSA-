@@ -3,7 +3,6 @@
 // Grade: A
 // Passed: true
 
-package Practice ;
 
 public class Data {
     public static void main(String[] args) {

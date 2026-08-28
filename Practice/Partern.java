@@ -1,4 +1,3 @@
-package Practice;
 
 public class Partern {
     public static void main(String []args ) {
