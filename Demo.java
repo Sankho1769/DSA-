@@ -52,24 +52,39 @@
 //     }
 // }
 
-class calculator {
-    public int add( int n1, int n2, int n3) {
-        return n1 + n2 + n3;
-    }
-    public int add( int n1, int n2) {
-        return n1 + n2;
-    }
-    public double add( double n1, int n2) {
-        return n1 + n2;
-    }
-}
+// class calculator {
+//     public int add( int n1, int n2, int n3) {
+//         return n1 + n2 + n3;
+//     }
+//     public int add( int n1, int n2) {
+//         return n1 + n2;
+//     }
+//     public double add( double n1, int n2) {
+//         return n1 + n2;
+//     }
+// }
 
-public class Demo {
-    public static void main(String[] args) {
+// public class Demo {
+//     public static void main(String[] args) {
         
-        calculator obj = new calculator();
-        int r1 = obj.add(3,4);
-         r1 = obj.add(3,4);
-        System.out.println(r1);
+//         calculator obj = new calculator();
+//         int r1 = obj.add(3,4);
+//          r1 = obj.add(3,4);
+//         System.out.println(r1);
+//     }
+// }
+
+class Demo {
+    public static void main(String[]args) { 
+        StringBuffer sb = new StringBuffer("Shankho");
+        System.out.println(sb.capacity());
+        sb.append("Shubham");
+
+        sb.deleteCharAt(3);
+        sb.insert(3, "Helo" );
+        sb.setLength(23);
+        sb.ensureCapacity(23);
+
+        System.out.println(sb); 
     }
 }
